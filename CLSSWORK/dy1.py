@@ -10,3 +10,5 @@ print(total)
 total=str(total)
 print(type(total))
 print("integer converted to string:",total)
+import random
+print(random.randrange(5,10))
