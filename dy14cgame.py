@@ -2,7 +2,7 @@ import random
 import math
 
 try:
-    name =input("enter the names of guest (comma-separated):")
+    name =input("enter the names of guests (comma-separated):")
     name_list=[name.strip() for name in name.split(",")]
     unique= list(set(name_list))
     
